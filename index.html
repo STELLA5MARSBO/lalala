@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres na História, Ciência e Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mulheres na História, Ciência e Tecnologia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#info">Sobre</a></li>
+                    <li><a href="#women">Mulheres</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="info" class="info-section">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <p>Este site celebra as contribuições significativas de mulheres em História, Ciência e Tecnologia. Aqui você pode conhecer suas histórias, descobertas e impacto no mundo.</p>
+            </div>
+        </section>
+        
+        <section id="women" class="women-section">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Procure por nome...">
+                    <button id="search-button">Pesquisar</button>
+                </div>
+                <div id="women-list" class="women-list">
+                    <!-- As mulheres serão inseridas aqui pelo JavaScript -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form id="contact-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mulheres na História, Ciência e Tecnologia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

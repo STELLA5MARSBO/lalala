@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Marie Curie",
+        "field": "Ciência",
+        "description": "Pioneira na pesquisa sobre radioatividade, primeira mulher a ganhar um Prêmio Nobel.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Marie_Curie_c1920.jpg"
+    },
+    {
+        "name": "Ada Lovelace",
+        "field": "Tecnologia",
+        "description": "Considerada a primeira programadora de computadores devido ao seu trabalho com a máquina analítica de Charles Babbage.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ada_Lovelace_portrait.jpg"
+    },
+    {
+        "name": "Rosalind Franklin",
+        "field": "Ciência",
+        "description": "Sua pesquisa sobre a estrutura do DNA foi crucial para a descoberta da estrutura em dupla hélice.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rosalind_Franklin_1955.jpg"
+    },
+    {
+        "name": "Grace Hopper",
+        "field": "Tecnologia",
+        "description": "Pioneira na programação de computadores e desenvolvedora do primeiro compilador.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Grace_Hopper_1960.jpg"
+    },
+    {
+        "name": "Katherine Johnson",
+        "field": "Ciência",
+        "description": "Matemática que fez cálculos cruciais para as missões espaciais da NASA, incluindo o voo de John Glenn.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Katherine_Johnson%2C_NASA_Mathematician.jpg"
+    },
+    {
+        "name": "Malala Yousafzai",
+        "field": "História",
+        "description": "Ativista pela educação e direitos das mulheres, e a mais jovem laureada com o Prêmio Nobel da Paz.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Malala_Yousafzai_in_2013.jpg"
+    },
+    {
+        "name": "Sally Ride",
+        "field": "Ciência",
+        "description": "Primeira mulher americana a viajar para o espaço.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sally_Ride.jpg"
+    }
+]

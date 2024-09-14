@@ -1,0 +1,172 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    background: #ff1493;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.info-section,
+.women-section,
+.contact-section {
+    padding: 40px 20px;
+    background: #1c1c1c;
+}
+
+.info-section h2,
+.women-section h2,
+.contact-section h2 {
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ff1493;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    border: none;
+    background: #ff1493;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background: #e11b77;
+}
+
+.women-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.women-list .woman-item {
+    background: #333;
+    border: 1px solid #ff1493;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.women-list .woman-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ff1493;
+    border-radius: 5px;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+.contact-section form button {
+    padding: 10px;
+    border: none;
+    background: #ff1493;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background: #e11b77;
+}
+
+footer {
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-bar button {
+        width: 100%;
+    }
+}
